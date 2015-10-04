@@ -1,0 +1,7 @@
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\obj\Debug\SAG.Acceso a Datos.csprojResolveAssemblyReference.cache
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\bin\Debug\Acceso a Datos.dll
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\bin\Debug\Acceso a Datos.pdb
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\bin\Debug\Class Library.dll
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\bin\Debug\Class Library.pdb
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\obj\Debug\Acceso a Datos.dll
+C:\Users\Owen\Desktop\SAG\Acceso a Datos\obj\Debug\Acceso a Datos.pdb

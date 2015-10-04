@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EF6743D-59F0-40E9-9EE6-2C62D355629D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAG</RootNamespace>
+    <AssemblyName>SAG</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Acceso\Administrador\AsignarSolicitud.aspx" />
+    <Content Include="app\Acceso\Administrador\AsignarTrabajo.aspx" />
+    <Content Include="app\Acceso\Administrador\IngresarUsuario.aspx" />
+    <Content Include="app\Acceso\Mantenimiento\ListarSolicitudes.aspx" />
+    <Content Include="app\Acceso\Encargado\RealizarSolicitud.aspx" />
+    <Content Include="app\Acceso\Mantenimiento\ReporteMantenimiento.aspx" />
+    <Content Include="app\Acceso\Mantenimiento\SolicitarMaterial.aspx" />
+    <Content Include="app\Acceso\Personal\ReportePersonal.aspx" />
+    <Content Include="app\Account\Login.aspx" />
+    <Content Include="app\Account\Perfil.aspx" />
+    <Content Include="app\Default.aspx" />
+    <Content Include="app\Acceso\Administrador\ModificarUsuario.aspx" />
+    <Content Include="app\Global.asax" />
+    <Content Include="app\Images\icono.png" />
+    <Content Include="app\Images\temis.jpg" />
+    <Content Include="app\Pages\Usuarios.aspx" />
+    <Content Include="app\Styles\maestro.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\Acceso\Administrador\AsignarSolicitud.aspx.cs">
+      <DependentUpon>AsignarSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\AsignarSolicitud.aspx.designer.cs">
+      <DependentUpon>AsignarSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\AsignarTrabajo.aspx.cs">
+      <DependentUpon>AsignarTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\AsignarTrabajo.aspx.designer.cs">
+      <DependentUpon>AsignarTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\IngresarUsuario.aspx.cs">
+      <DependentUpon>IngresarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\IngresarUsuario.aspx.designer.cs">
+      <DependentUpon>IngresarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\ListarSolicitudes.aspx.cs">
+      <DependentUpon>ListarSolicitudes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\ListarSolicitudes.aspx.designer.cs">
+      <DependentUpon>ListarSolicitudes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Encargado\RealizarSolicitud.aspx.cs">
+      <DependentUpon>RealizarSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Encargado\RealizarSolicitud.aspx.designer.cs">
+      <DependentUpon>RealizarSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\ReporteMantenimiento.aspx.cs">
+      <DependentUpon>ReporteMantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\ReporteMantenimiento.aspx.designer.cs">
+      <DependentUpon>ReporteMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\SolicitarMaterial.aspx.cs">
+      <DependentUpon>SolicitarMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Mantenimiento\SolicitarMaterial.aspx.designer.cs">
+      <DependentUpon>SolicitarMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Personal\ReportePersonal.aspx.cs">
+      <DependentUpon>ReportePersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Personal\ReportePersonal.aspx.designer.cs">
+      <DependentUpon>ReportePersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Account\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Account\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Account\Controlador.cs" />
+    <Compile Include="app\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\ModificarUsuario.aspx.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Acceso\Administrador\ModificarUsuario.aspx.designer.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="app\Maestra.Master.cs">
+      <DependentUpon>Maestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Maestra.Master.designer.cs">
+      <DependentUpon>Maestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="app\Pages\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Pages\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\ProfileMaster.Master.cs">
+      <DependentUpon>ProfileMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\ProfileMaster.Master.designer.cs">
+      <DependentUpon>ProfileMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Maestra.Master" />
+    <Content Include="app\ProfileMaster.Master" />
+    <Content Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </Content>
+    <None Include="Properties\PublishProfiles\Admi.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\Scripts\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso a Datos\SAG.Acceso a Datos.csproj">
+      <Project>{7bf66ab3-d123-470c-b1e0-55bdaa034b25}</Project>
+      <Name>SAG.Acceso a Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Class Library\SAG.Class Library.csproj">
+      <Project>{3166bfe4-9c22-47b0-a3c1-c211430c4a0c}</Project>
+      <Name>SAG.Class Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica de Negocio\SAG.Logica de Negocio.csproj">
+      <Project>{26E9817C-46C9-40EE-A65E-EE7586BD0DBD}</Project>
+      <Name>SAG.Logica de Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>39718</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1090/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

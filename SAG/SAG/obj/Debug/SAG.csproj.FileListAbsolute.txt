@@ -1,0 +1,17 @@
+c:\users\pabo\documents\visual studio 2012\Projects\SAG\SAG\bin\SAG.dll
+c:\users\pabo\documents\visual studio 2012\Projects\SAG\SAG\bin\SAG.pdb
+c:\users\pabo\documents\visual studio 2012\Projects\SAG\SAG\obj\Debug\SAG.csprojResolveAssemblyReference.cache
+c:\users\pabo\documents\visual studio 2012\Projects\SAG\SAG\obj\Debug\SAG.dll
+c:\users\pabo\documents\visual studio 2012\Projects\SAG\SAG\obj\Debug\SAG.pdb
+C:\Users\Owen\Desktop\SAG\SAG\obj\Debug\SAG.csprojResolveAssemblyReference.cache
+C:\Users\Owen\Desktop\SAG\SAG\obj\Debug\SAG.dll
+C:\Users\Owen\Desktop\SAG\SAG\obj\Debug\SAG.pdb
+C:\Users\Owen\Desktop\SAG\SAG\bin\SAG.dll.config
+C:\Users\Owen\Desktop\SAG\SAG\bin\SAG.dll
+C:\Users\Owen\Desktop\SAG\SAG\bin\SAG.pdb
+C:\Users\Owen\Desktop\SAG\SAG\bin\Acceso a Datos.dll
+C:\Users\Owen\Desktop\SAG\SAG\bin\Class Library.dll
+C:\Users\Owen\Desktop\SAG\SAG\bin\Acceso a Datos.pdb
+C:\Users\Owen\Desktop\SAG\SAG\bin\Class Library.pdb
+C:\Users\Owen\Desktop\SAG\SAG\bin\Logica de Negocio.dll
+C:\Users\Owen\Desktop\SAG\SAG\bin\Logica de Negocio.pdb

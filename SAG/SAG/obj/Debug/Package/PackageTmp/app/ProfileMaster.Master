@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProfileMaster.master.cs" Inherits="SAG.app.ProfileMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <nav class="navbar navbar-default">
+	  					<div class="container-fluid">
+	  						<div class="navbar-header">
+	  							<img src="\app\Images\icono.png" class="img-responsive" style="width:50px; height:50px;"/>
+                                <asp:ContentPlaceHolder ID="encabezado" runat="server">
+                                    
+                                </asp:ContentPlaceHolder>
+	  						</div>
+	  						<ul class="nav navbar-nav navbar-right">
+                                <asp:Literal ID="ltencabezado" runat="server"></asp:Literal>
+						        <li><a href="/app/Account/Login.aspx"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+					      	</ul>
+	  					</div>
+  					</nav>
+                </div>
+                <div class="panel-body">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
