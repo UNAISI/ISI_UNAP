@@ -10,6 +10,7 @@ namespace Acceso_a_Datos
 {
     public class SolicitudMaterialDAO
     {
+        
         public static void Ingresar_Solicitud(SolicitudMaterial soliMate) {
             string sql = @"exec pa_solicitar_Material @id, @empleado, @fecha";
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["TribunalesDB2ConnectionString"].ToString()))

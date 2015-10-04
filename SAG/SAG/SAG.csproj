@@ -151,7 +151,6 @@
     <Compile Include="app\Account\Perfil.aspx.designer.cs">
       <DependentUpon>Perfil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="app\Account\Controlador.cs" />
     <Compile Include="app\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,7 +225,7 @@
       <Name>SAG.Class Library</Name>
     </ProjectReference>
     <ProjectReference Include="..\Logica de Negocio\SAG.Logica de Negocio.csproj">
-      <Project>{26E9817C-46C9-40EE-A65E-EE7586BD0DBD}</Project>
+      <Project>{26e9817c-46c9-40ee-a65e-ee7586bd0dbd}</Project>
       <Name>SAG.Logica de Negocio</Name>
     </ProjectReference>
   </ItemGroup>
