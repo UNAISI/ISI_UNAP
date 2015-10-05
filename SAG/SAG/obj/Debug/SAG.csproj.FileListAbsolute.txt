@@ -15,3 +15,15 @@ C:\Users\Owen\Desktop\SAG\SAG\bin\Acceso a Datos.pdb
 C:\Users\Owen\Desktop\SAG\SAG\bin\Class Library.pdb
 C:\Users\Owen\Desktop\SAG\SAG\bin\Logica de Negocio.dll
 C:\Users\Owen\Desktop\SAG\SAG\bin\Logica de Negocio.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\SAG.dll.config
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\SAG.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\SAG.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Acceso a Datos.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Class Library.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Logica de Negocio.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Acceso a Datos.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Class Library.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\bin\Logica de Negocio.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\obj\Debug\SAG.csprojResolveAssemblyReference.cache
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\obj\Debug\SAG.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\SAG\obj\Debug\SAG.pdb

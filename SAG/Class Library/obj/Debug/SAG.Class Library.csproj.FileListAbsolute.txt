@@ -3,3 +3,8 @@ C:\Users\Owen\Desktop\SAG\Class Library\bin\Debug\Class Library.pdb
 C:\Users\Owen\Desktop\SAG\Class Library\obj\Debug\SAG.Class Library.csprojResolveAssemblyReference.cache
 C:\Users\Owen\Desktop\SAG\Class Library\obj\Debug\Class Library.dll
 C:\Users\Owen\Desktop\SAG\Class Library\obj\Debug\Class Library.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Class Library\bin\Debug\Class Library.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Class Library\bin\Debug\Class Library.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Class Library\obj\Debug\SAG.Class Library.csprojResolveAssemblyReference.cache
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Class Library\obj\Debug\Class Library.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Class Library\obj\Debug\Class Library.pdb

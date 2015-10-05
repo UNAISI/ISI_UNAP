@@ -3,3 +3,8 @@ C:\Users\Owen\Desktop\SAG\Logica de Negocio\bin\Debug\Logica de Negocio.pdb
 C:\Users\Owen\Desktop\SAG\Logica de Negocio\obj\Debug\SAG.Logica de Negocio.csprojResolveAssemblyReference.cache
 C:\Users\Owen\Desktop\SAG\Logica de Negocio\obj\Debug\Logica de Negocio.dll
 C:\Users\Owen\Desktop\SAG\Logica de Negocio\obj\Debug\Logica de Negocio.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Logica de Negocio\bin\Debug\Logica de Negocio.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Logica de Negocio\bin\Debug\Logica de Negocio.pdb
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Logica de Negocio\obj\Debug\SAG.Logica de Negocio.csprojResolveAssemblyReference.cache
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Logica de Negocio\obj\Debug\Logica de Negocio.dll
+D:\GitHubVisualStudio\ISI_UNAP\SAG\Logica de Negocio\obj\Debug\Logica de Negocio.pdb
